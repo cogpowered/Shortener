@@ -1,7 +1,9 @@
 Shortener
 =========
 
-Currently this is a port of (jakoubek/php-recordlocator)[https://github.com/jakoubek/php-recordlocator]. It has been tidied up, namespaced and proper (Composer)[] support added.
+Currently this is a port of [jakoubek/php-recordlocator](https://github.com/jakoubek/php-recordlocator). 
+
+It has been tidied up, namespaced and proper [Composer](http://getcomposer.org/) support added.
 
 Usage
 -----
