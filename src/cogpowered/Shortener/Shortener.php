@@ -112,11 +112,11 @@ class Shortener
             $number = intval($number / 32);
         }
 
-        $me = $this;
+        $toChar = $this->toChar;
 
         $string = array_map(
-            function($number) use($me) {
-                return $me->toChar[$number];
+            function($number) use($toChar) {
+                return $toChar[$number];
             },
             $numbers
         );
