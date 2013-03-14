@@ -1,0 +1,28 @@
+{
+    "name": "cogpowered/shortener",
+    "description": "Encodes integers as short string and back. Useful in URL shorteners.",
+    "homepage": "https://github.com/cogpowered/Shortener",
+    "license": "MIT",
+    "keywords": ["url", "shortener","number","integer","id","convert","encoding"],
+    "authors": [
+        {
+            "name": "Oliver Jakoubek",
+            "email": "mail@oliverjakoubek.de",
+            "homepage": "http://www.oliverjakoubek.de"
+        },
+        {
+            "name": "Rob Crowe",
+            "email": "rob@cogpowered.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-0": { "cogpowered\\Shortener": "src/" }
+    }
+}
